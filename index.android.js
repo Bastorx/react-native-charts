@@ -48,4 +48,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('A', () => A);
+AppRegistry.registerComponent('react_native_charts', () => A);

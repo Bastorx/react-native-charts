@@ -1,3 +1,3 @@
-rootProject.name = 'A'
+rootProject.name = 'react_native_charts'
 
 include ':app'

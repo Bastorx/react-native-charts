@@ -44,7 +44,7 @@
 //   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"A"
+                                                      moduleName:@"react_native_charts"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
 

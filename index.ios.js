@@ -12,7 +12,7 @@ import React, {
   View
 } from 'react-native';
 
-class A extends Component {
+class Main extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('A', () => A);
+AppRegistry.registerComponent('react_native_charts', () => Main);
