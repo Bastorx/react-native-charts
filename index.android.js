@@ -15,6 +15,7 @@ class Main extends Component {
   render() {
     return (
       <ScrollView>
+        <Line />
       </ScrollView>
     );
   }
