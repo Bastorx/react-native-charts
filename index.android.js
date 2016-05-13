@@ -1,21 +1,25 @@
 import React, {
   AppRegistry,
   ScrollView,
-  Component
+  Component,
+  Text
 } from 'react-native';
 
-import Charts, {
-  Line,
-  Histogram,
-  Bar,
-  Pie
-} from './lib';
+import LineChart from './lib/LineChart';
+import PieChart from './lib/PieChart';
+import BarChart from './lib/BarChart';
+import RadarChart from './lib/RadarChart';
 
 class Main extends Component {
   render() {
     return (
       <ScrollView>
-        <Line />
+        <LineChart style={{height: 350, width: 350}}
+         data={{data: [10, 4, 12.5, 8], labels: ["Bastien", "Adrien", "Boris", "Morgane"]}} />
+        <PieChart style={{height: 350, width: 350}}
+        data={{percents: [10, 4, 12.5, 8], labels: ["Bastien", "Adrien", "Boris", "Morgane"]}}/>
+        <BarChart style={{height: 350, width: 350}} 
+        data={{data: [10, 4, 12.5, 8], labels: ["Bastien", "Adrien", "Boris", "Morgane"]}}/>
       </ScrollView>
     );
   }
